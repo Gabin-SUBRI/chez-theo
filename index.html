@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chez Théo - Restaurant Saint-Donat-sur-l'Herbasse</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#" class="logo">Chez Théo</a>
+        <div class="menu-toggle" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#about">À Propos</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#info">Infos</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+      <div class="hero-content">
+        <h1>Chez Théo</h1>
+        <p>Restaurant gastronomique à Saint-Donat-sur-l'Herbasse</p>
+        <a href="#menu" class="cta-button">Découvrir notre carte</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title">À Propos</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Bienvenue chez Théo</h3>
+            <p>
+              Situé au cœur de Saint-Donat-sur-l'Herbasse, notre restaurant vous
+              accueille dans un cadre chaleureux et authentique. Classé #4 sur 8
+              restaurants de la ville avec une note de 4.2/5 sur TripAdvisor,
+              nous nous efforçons de vous offrir une expérience culinaire
+              mémorable.
+            </p>
+
+            <p>
+              Notre cuisine variée mais authentique met l'accent sur les
+              produits frais et les saveurs gourmandes. Nos spécialités incluent
+              nos desserts maison, nos plats de poisson frais et notre célèbre
+              gazpacho de courgettes qui ravissent nos clients.
+            </p>
+
+            <p>
+              Profitez de notre terrasse pour vos repas en plein air et de notre
+              service de traiteur pour vos événements spéciaux.
+            </p>
+          </div>
+          <div class="about-image about-image-with-photo">
+            <div>
+              <h3>🍽️ Cuisine Authentique</h3>
+              <p>
+                Des plats préparés avec passion<br />dans un cadre chaleureux
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="section">
+      <div class="container">
+        <h2 class="section-title">Notre Carte</h2>
+        <div class="menu-grid">
+          <div class="menu-category menu-entrees">
+            <h3>🥗 Entrées</h3>
+            <div class="menu-item">
+              <div class="item-info">
+                <h4>Gazpacho de Courgettes</h4>
+                <p>Notre spécialité maison, fraîche et savoureuse</p>
+              </div>
+              <span class="item-price">12€</span>
+            </div>
+            <div class="menu-item">
+              <div class="item-info">
+                <h4>Salade de Saison</h4>
+                <p>Produits frais du marché local</p>
+              </div>
+              <span class="item-price">14€</span>
+            </div>
+            <div class="menu-item">
+              <div class="item-info">
+                <h4>Terrine Maison</h4>
+                <p>Accompagnée de pickles et pain grillé</p>
+              </div>
+              <span class="item-price">16€</span>
+            </div>
+          </div>
+
+          <div class="menu-category menu-poisson">
+            <h3>🐟 Plats de Poisson</h3>
+            <div class="menu-item">
+              <div class="item-info">
+                <h4>Poisson du Jour</h4>
+                <p>Sélection fraîche selon arrivage</p>
+              </div>
+              <span class="item-price">26€</span>
+            </div>
+            <div class="menu-item">
+              <div class="item-info">
+                <h4>Saumon Grillé</h4>
+                <p>Légumes de saison et sauce citronnée</p>
+              </div>
+              <span class="item-price">24€</span>
+            </div>
+            <div class="menu-item">
+              <div class="item-info">
+                <h4>Dos de Cabillaud</h4>
+                <p>Purée de pommes de terre à l'huile d'olive</p>
+              </div>
+              <span class="item-price">22€</span>
+            </div>
+          </div>
+
+          <div class="menu-category menu-plats">
+            <h3>🥩 Plats Traditionnels</h3>
+            <div class="menu-item">
+              <div class="item-info">
+                <h4>Menu Exotique</h4>
+                <p>Voyage culinaire aux saveurs d'ailleurs</p>
+              </div>
+              <span class="item-price">28€</span>
+            </div>
+            <div class="menu-item">
+              <div class="item-info">
+                <h4>Plat du Jour</h4>
+                <p>Cuisine traditionnelle française</p>
+              </div>
+              <span class="item-price">20€</span>
+            </div>
+            <div class="menu-item">
+              <div class="item-info">
+                <h4>Spécialité Régionale</h4>
+                <p>Découvrez les saveurs de la Drôme</p>
+              </div>
+              <span class="item-price">25€</span>
+            </div>
+          </div>
+
+          <div class="menu-category menu-desserts">
+            <h3>🍰 Desserts Maison</h3>
+            <div class="menu-item">
+              <div class="item-info">
+                <h4>Dessert du Chef</h4>
+                <p>Création du jour, toujours surprenante</p>
+              </div>
+              <span class="item-price">9€</span>
+            </div>
+            <div class="menu-item">
+              <div class="item-info">
+                <h4>Tarte aux Fruits de Saison</h4>
+                <p>Pâte maison et fruits frais</p>
+              </div>
+              <span class="item-price">8€</span>
+            </div>
+            <div class="menu-item">
+              <div class="item-info">
+                <h4>Mousse au Chocolat</h4>
+                <p>Chocolat noir 70% et chantilly</p>
+              </div>
+              <span class="item-price">7€</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galerie" class="section gallery">
+      <div class="container">
+        <h2 class="section-title">Galerie Photos</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item gallery-plat1">
+            <div class="overlay">
+              <h4>Nos Spécialités</h4>
+              <p>Découvrez nos plats signatures préparés avec passion</p>
+            </div>
+          </div>
+          <div class="gallery-item gallery-salle">
+            <div class="overlay">
+              <h4>Salle de Restaurant</h4>
+              <p>Un cadre chaleureux et authentique pour vos repas</p>
+            </div>
+          </div>
+          <div class="gallery-item gallery-terrasse">
+            <div class="overlay">
+              <h4>Notre Terrasse</h4>
+              <p>Profitez de repas en plein air dans un cadre verdoyant</p>
+            </div>
+          </div>
+          <div class="gallery-item gallery-plat2">
+            <div class="overlay">
+              <h4>Plats de Poisson</h4>
+              <p>Sélection fraîche et cuisine raffinée</p>
+            </div>
+          </div>
+          <div class="gallery-item gallery-dessert">
+            <div class="overlay">
+              <h4>Desserts Maison</h4>
+              <p>Nos créations sucrées qui font notre réputation</p>
+            </div>
+          </div>
+          <div class="gallery-item gallery-equipe">
+            <div class="overlay">
+              <h4>Notre Équipe</h4>
+              <p>Une équipe passionnée à votre service</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Info Section -->
+    <section id="info" class="section info">
+      <div class="container">
+        <h2 class="section-title">Informations Pratiques</h2>
+        <div class="info-grid">
+          <div class="info-card">
+            <div class="icon">🕒</div>
+            <h3>Horaires</h3>
+            <p>
+              Mardi - Samedi<br />12h00 - 14h00<br />19h00 - 22h00<br /><br />Fermé
+              dimanche et lundi
+            </p>
+          </div>
+          <div class="info-card">
+            <div class="icon">🌿</div>
+            <h3>Terrasse</h3>
+            <p>
+              Profitez de notre belle terrasse pour vos repas en plein air dans
+              un cadre agréable et verdoyant
+            </p>
+          </div>
+          <div class="info-card">
+            <div class="icon">🍽️</div>
+            <h3>Services</h3>
+            <p>
+              • Service de traiteur<br />• Plats à emporter<br />• Réservation
+              conseillée<br />• Service en français et anglais
+            </p>
+          </div>
+          <div class="info-card">
+            <div class="icon">⭐</div>
+            <h3>Récompenses</h3>
+            <p>
+              Classé #4 sur 8 restaurants<br />Note : 4.2/5 TripAdvisor<br />4.4/5
+              Restaurant Guru<br />Excellence culinaire reconnue
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Contact & Localisation</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>📍 Adresse</h3>
+            <p>
+              42 Avenue Georges Bert<br />26260 Saint-Donat-sur-l'Herbasse<br />Drôme,
+              Auvergne-Rhône-Alpes
+            </p>
+
+            <h3>📞 Réservations</h3>
+            <p>Téléphone : 0475452204<br />Réservation fortement conseillée</p>
+
+            <h3>💌 Nous suivre</h3>
+            <div class="social-links">
+              <a
+                href="https://www.facebook.com/cheztheo/?locale=fr_FR"
+                target="_blank"
+                >f</a
+              >
+              <a
+                href="https://www.tripadvisor.fr/Restaurant_Review-g1647160-d7306289-Reviews-Chez_Theo-Saint_Donat_sur_l_Herbasse_Drome_Auvergne_Rhone_Alpes.html"
+                target="_blank"
+                >T</a
+              >
+              <a
+                href="https://maps.app.goo.gl/WEW3SE2AACokq6WE7"
+                target="_blank"
+                >📍</a
+              >
+            </div>
+          </div>
+          <div class="map-placeholder map-with-image">
+            <div>
+              <h3>📍 Localisation</h3>
+              <p>
+                Cliquez sur l'icône localisation<br />dans nos réseaux
+                sociaux<br />pour voir notre emplacement exact<br />sur Google
+                Maps
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Restaurant Chez Théo - Tous droits réservés</p>
+        <p>
+          Réalisé par
+          <a
+            href="https://gabinsubri.com"
+            target="_blank"
+            rel="noopener"
+            class="dev-credit"
+            >Gabin SUBRI</a
+          >
+        </p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

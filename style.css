@@ -555,6 +555,11 @@ body {
   opacity: 0.8;
 }
 
+.social-icon {
+  width: 25px;
+  height: 25px;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .menu-toggle {

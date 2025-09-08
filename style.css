@@ -74,7 +74,7 @@ body {
 .hero {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23d4af37" width="1200" height="600"/><circle fill="%23ffffff" opacity="0.1" cx="200" cy="150" r="100"/><circle fill="%23ffffff" opacity="0.1" cx="800" cy="350" r="120"/><circle fill="%23ffffff" opacity="0.05" cx="1000" cy="100" r="80"/></svg>');
+    url("/img/terrasse.png");
   background-size: cover;
   background-position: center;
   display: flex;
